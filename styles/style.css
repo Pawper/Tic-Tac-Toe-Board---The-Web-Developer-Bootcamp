@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box
 }
+
+h1 {
+  text-align: center;
+  margin: 0.67em;
+}
+
+.ticTacToeBoard {
+  margin: auto;
+  border-spacing: 0;
+}
+
+.ticTacToeBoard td {
+  width: 100px;
+  height: 100px;
+}
+
+.ticTacToeBoard tr:not(:first-of-type) td {
+  border-top: 1px solid black;
+}
+
+.ticTacToeBoard tr td:not(:first-of-type) {
+  border-left: 1px solid black;
+}
